@@ -1,0 +1,13 @@
+
+P
+java:S1854":Remove this useless assignment to local variable "degree".(„„ë∫
+8
+java:S1659""Declare "sign" on a separate line.(„„ë∫
+=
+java:S1659"'Declare "factorial" on a separate line.(„„ë∫
+A
+java:S1481"+Remove this unused "degree" local variable.(„„ë∫
+?
+java:S1481")Remove this unused "sign" local variable.(„„ë∫
+D
+java:S1481".Remove this unused "factorial" local variable.(„„ë∫
