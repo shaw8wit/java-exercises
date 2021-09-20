@@ -13,59 +13,6 @@ enum Gender {
     NONBINARY
 }
 
-@Data
-class Contact {
-    private int id;
-    private String firstname;
-    private String lastname;
-    private Gender gender;
-    private String email;
-    private String phone;
-    private String address;
-    private String city;
-    private String state;
-    private Integer pincode;
-    private String country;
-    private Date birthDate;
-
-    Contact(int id, String firstname, String lastname, Gender gender, String email, String phone, String address, String city, String state, int pincode, String country, Date birthDate) {
-        this.id = id;
-        this.firstname = firstname;
-        this.lastname = lastname;
-        this.gender = gender;
-        this.email = email;
-        this.phone = phone;
-        this.address = address;
-        this.city = city;
-        this.state = state;
-        this.pincode = pincode;
-        this.country = country;
-        this.birthDate = birthDate;
-    }
-
-    public Contact() { }
-}
-
-class DaoException extends Throwable {
-
-}
-
-interface ContactsDao {
-    // CRUD operations
-    public void addContact(Contact contact) throws DaoException;
-    public Contact getContact(int id) throws DaoException;
-    public void updateContact(Contact contact) throws DaoException;
-    public void deleteContact(int id) throws DaoException;
-
-    // Queries
-    public Contact getContactByEmail(String email) throws DaoException;
-    public Contact getContactByPhone(String phone) throws DaoException;
-    public List<Contact> getContactsByLastname(String lastname) throws DaoException;
-    public List<Contact> getContactsByCity(String city) throws DaoException;
-    public List<Contact> getContacts() throws DaoException;
-    public List<Contact> getContactsByBirthDate(Date from, Date to) throws DaoException;
-}
-
 class Contacts implements ContactsDao {
     private List<Contact> list;
 
