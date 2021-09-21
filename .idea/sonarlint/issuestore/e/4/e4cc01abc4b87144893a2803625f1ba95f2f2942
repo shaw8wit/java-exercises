@@ -1,0 +1,38 @@
+
+O
+java:S1118d":Add a private constructor to hide the implicit public one.(Æ÷Á
+N	java:S106g"9Replace this use of System.out or System.err by a logger.(™Ë½¹
+N	java:S106i"9Replace this use of System.out or System.err by a logger.(–Ç÷û
+N	java:S106k"9Replace this use of System.out or System.err by a logger.(åûÚ
+_
+java:S3358m"DExtract this nested ternary operation into an independent statement.(¤ÏŞ„şÿÿÿÿ
+S	java:S106n"9Replace this use of System.out or System.err by a logger.(¿²İÿøÿÿÿÿ
+S	java:S106p"9Replace this use of System.out or System.err by a logger.(òÕı´ûÿÿÿÿ
+S	java:S106r"9Replace this use of System.out or System.err by a logger.(ÈôƒÉÿÿÿÿÿ
+M	java:S106t"9Replace this use of System.out or System.err by a logger.(­Ñ
+S	java:S106v"9Replace this use of System.out or System.err by a logger.(Ôş‹ûÿÿÿÿ
+N	java:S106x"9Replace this use of System.out or System.err by a logger.(ğ€îÖ
+S	java:S106z"9Replace this use of System.out or System.err by a logger.(Ê©Œµúÿÿÿÿ
+N	java:S106|"9Replace this use of System.out or System.err by a logger.(ØğÂ
+T	java:S106‡"9Replace this use of System.out or System.err by a logger.(ºì„‚úÿÿÿÿ
+O	java:S106›"9Replace this use of System.out or System.err by a logger.(ìšŒï
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ã†ù”ÿÿÿÿÿ
+O	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(ÏÀ…’
+O	java:S106¢"9Replace this use of System.out or System.err by a logger.(ë¡¾ÿ
+T	java:S106£"9Replace this use of System.out or System.err by a logger.(£ú¥êÿÿÿÿÿ
+T	java:S106¦"9Replace this use of System.out or System.err by a logger.(õÑ‰ıúÿÿÿÿ
+O	java:S106§"9Replace this use of System.out or System.err by a logger.(±Ôˆâ
+T	java:S106ª"9Replace this use of System.out or System.err by a logger.(Îş£æúÿÿÿÿ
+T	java:S106«"9Replace this use of System.out or System.err by a logger.(—¤úÅşÿÿÿÿ
+T	java:S106¯"9Replace this use of System.out or System.err by a logger.(Ş’”¤ûÿÿÿÿ
+T	java:S106°"9Replace this use of System.out or System.err by a logger.(Â¹ğ´ÿÿÿÿÿ
+T	java:S106¶"9Replace this use of System.out or System.err by a logger.(ÌİÌ®ùÿÿÿÿ
+T	java:S106º"9Replace this use of System.out or System.err by a logger.(¤ˆŠ¡ıÿÿÿÿ
+T	java:S106Á"9Replace this use of System.out or System.err by a logger.(§í­øÿÿÿÿ
+T	java:S106Å"9Replace this use of System.out or System.err by a logger.(§í­øÿÿÿÿ
+O	java:S106È"9Replace this use of System.out or System.err by a logger.(Û²ÂÆ
+J
+java:S1128"(Remove this unused import 'lombok.Data'.(÷í«ÿÿÿÿÿ8Ò¿À/
+`
+java:S1192}"KDefine a constant instead of duplicating this literal "dd-MM-yyyy" 3 times.(Ô‚i
+t	java:S135†"YReduce the total number of break and continue statements in this loop to use at most one.(ü§è½ùÿÿÿÿ

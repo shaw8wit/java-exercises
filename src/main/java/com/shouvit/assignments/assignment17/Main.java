@@ -78,7 +78,7 @@ public class Main {
         return (31);
     }
 
-    static void calendar(String s) throws InvalidDateException, InvalidInputException {
+    public static void calendar(String s) throws InvalidDateException, InvalidInputException {
         int index = s.indexOf("-");
         if(s.length() != 7 || index != 4) throw new InvalidInputException();
         int year = Integer.parseInt(s.substring(0, index));

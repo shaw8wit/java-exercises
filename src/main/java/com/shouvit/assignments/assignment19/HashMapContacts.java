@@ -6,12 +6,11 @@ import com.shouvit.assignments.assignment18.DaoException;
 
 import java.util.*;
 
-public class HashMapContacts {}
 
-class Contacts implements ContactsDao {
+public class HashMapContacts implements ContactsDao {
     private HashMap<Integer, Contact> map;
 
-    Contacts() {
+    HashMapContacts() {
         map = new HashMap<>();
     }
 
